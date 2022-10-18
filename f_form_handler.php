@@ -42,7 +42,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
     </label>
     <br>
     <label style="margin-left:10%;">
-    <span>Your address is: <br> <?php echo $_POST["address"]; ?></span>
+    <span>Your address is: <br> <?php echo $_POST["myaddress"]; ?></span>
      
     </label>
 
